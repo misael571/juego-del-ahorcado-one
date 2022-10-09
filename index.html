@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JUEGO DEL AHORCADO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="main">
+        <img src="imagenes/LogoAlura.png" alt="Logo de LogoAlura" class="logo">
+        <div class="principal" id="home">
+            <a href="#juego">
+                <input class="btniniciar" type="submit" value="Iniciar juego" id="inicarDesaparece" onclick="iniciarJuego()">
+            </a>
+             <input class="btnagregar" type="submit" value="Agregar Palabra" id="agregarDesaparece" onclick="agregarPalabra()">
+        </div>
+        <div class="agregaPalabra">
+            <input class="texto" type="text" id="nuevaPalabra" maxlength="8" placeholder="Ingrese nueva palabra">
+
+            <div class="btonesTexto">
+                <input class="btnguardar" type="submit" id="guardar" value="Guardar y empezar">
+                <input class="btncancelar" type="submit" id="cancelar" value="Cancelar">
+            </div>
+        </div>
+        <div class="canvas">
+            <canvas id="juego" width="1200" height="800" class="canvas-style"></canvas>
+            <div class="btnsCanvas">
+                <input class="btnNuevoJuego" type="submit" value="Nuevo juego" id="nuevoJuego" onclick="juegoNuevo()">
+                <input class="btnDesistir" type="submit" value="abandonar" id="abandonarJuego" onclick="abandonar()">
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+        <script src="canvas.js"></script>
+    </main>
+    <footer class="fother">
+        <p class="copyrigth">&copy; Copyrigth Misael Cussi - 2022</p>
+        <a href="https://www.linkedin.com/in/erasmo-cussi-bb0a1b248/" target="_blank" class="linkedin">
+            <img src="imagenes/174857.png" alt="logo linkedin" width="40" height="40">
+        </a>
+        <a href="https://github.com/misael571" target="_blank" class="github">
+            <img src="imagenes/GitHub-Mark-64px.png" alt="logo github" width="40" height="40">
+        </a>
+    </footer>
+</body>
+</html>

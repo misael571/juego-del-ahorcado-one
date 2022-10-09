@@ -1,0 +1,349 @@
+body{
+    min-width: 1224px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #F3F5FC;
+    
+}
+
+.logo{
+    position: absolute;
+    left: 44px;
+    right: 37.43%;
+    top:2%;
+    bottom: 0%;
+    width: 48px;
+    height: 48px;
+    
+}
+
+.btniniciar{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+
+    position: absolute;
+    width: 317px;
+    height: 114px;
+    left: 561px;
+    top: 402px;
+    background: #0A3871;
+    border-radius: 24px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    justify-content: center;
+
+    color: #FFFFFF;
+}
+
+.btnagregar{
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+
+    position: absolute;
+    width: 288px;
+    height: 67px;
+    left: 579px;
+    top: 554px;
+
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    justify-content: center;
+
+    color: #0A3871;
+}
+
+.agregaPalabra{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 120px;
+    height: 48px;
+    left: 40px;
+    top: 40px;
+}
+
+.texto{
+    position: absolute;
+    width: 299px;
+    height: 48px;
+    left: 376px;
+    top: 256px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 150%;
+    
+    color: #0A3871;
+    background: transparent;
+    border: none;
+    text-transform: uppercase;
+}    
+::placeholder {color: #0A3871; text-transform: lowercase;}
+
+.btonesTexto{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0;
+    gap: 24px;
+
+    position: absolute;
+    width: 688px;
+    height: 67px;
+    left: 376px;
+    top: 701px;
+}
+
+.btnguardar{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+
+    position: static;
+    width: 332px;
+    height: 67px;
+
+    background: #0A3871;
+    border-radius: 24px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    justify-content: center;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+
+}
+
+.btncancelar{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+
+    position: static;
+    width: 332px;
+    height: 67px;
+
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    justify-content: center;
+
+    color: #0A3871;
+
+}
+
+.canvas{
+    left: 650px;
+
+}
+
+.btnsCanvas{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 688px;
+    height: 67px;
+    left: 450px;
+    top: 881;
+}
+
+.btnNuevoJuego{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    
+    width: 332px;
+    height: 67px;
+
+    background: #0A3871;
+    border-radius: 24px;
+    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    justify-content: center;
+
+    color: #FFFFFF;
+}
+
+.btnDesistir{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+
+    width: 332px;
+    height: 67px;
+
+    border: 1px solid #0A3871;
+    box-sizing: border-box;
+    border-radius: 24px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 24px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    justify-content: center;
+    color: #0A3871;
+}
+.fother{
+    display: flex;
+    margin-left: 599px;
+    margin-top: 95px;
+}
+
+@media screen and (max-width:780px){
+
+    .logo{
+       left: 22px;
+       top: 1%;
+       width: 34px;
+       height: 34px; 
+    }
+    .btniniciar{
+        left: 6.7rem;
+        top: 17rem;
+    } 
+    .btnagregar{
+        left: 7.5rem;
+        top: 33.7rem;
+    } 
+    .fother{
+        margin-left: auto;
+        margin-top: 250px;
+    }
+    .agregaPalabra{
+        left: 90px;
+    }
+    .texto{
+        left: 0px;
+        top: 100px;
+    }
+    .btonesTexto{
+        display: block;
+        left: 0px;
+        top: 451px;
+    }
+    .btncancelar{
+        margin-top: 25px;
+    }
+    .canvas-style{
+        width: 595px;
+        height: 500px;
+    }
+    .btnsCanvas{
+        display: block;
+        left: 100px; 
+    }
+    .btnDesistir{
+        margin: 15px 0 ;
+
+    } 
+}
+
+@media screen and (max-width:480px){
+
+    .logo{
+       left: 22px;
+       top: 1%;
+       width: 34px;
+       height: 34px; 
+    }
+    .btniniciar{
+        left: 1.7rem;
+        top: 17rem;
+    } 
+    .btnagregar{
+        left: 2.5rem;
+        top: 33.7rem;
+    } 
+    .fother{
+        margin-left: auto;
+        margin-top: 250px;
+    }
+    .agregaPalabra{
+        left: 20px;
+    }
+    .texto{
+        left: 0px;
+        top: 100px;
+    }
+    .btonesTexto{
+        display: block;
+        left: 0px;
+        top: 451px;
+    }
+    .btncancelar{
+        margin-top: 25px;
+    }
+    .canvas-style{
+        width: 395px;
+        height: 500px;
+    }
+    .btnsCanvas{
+        display: block;
+        left: 20px; 
+    }
+    .btnDesistir{
+        margin: 15px 0 ;
+
+    } 
+}
+
+
+
+
